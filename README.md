@@ -6,8 +6,7 @@ package ThreadA;
 public class ThreadA {
 
    public static void main (String [] args)
-	   {
-	   
+	    {
 	   //AT-threads request for company A
 	   CompAThread AT = new CompAThread ();
 	   AT.start ();
@@ -15,6 +14,9 @@ public class ThreadA {
 	           System.out.println ("t = " + t + ", t * t = " + t * t);
 	   }
 	   
+}
+class CompAThread extends Thread
+{
 	   public void run ()
 	   {
 	   
