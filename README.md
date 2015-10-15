@@ -15,6 +15,9 @@ public class ThreadA {
 	           System.out.println ("t = " + t + ", t * t = " + t * t);
 	   }
 	   
+	   public void run ()
+	   {
+	   
 	   
 	   
 	   
