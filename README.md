@@ -26,9 +26,6 @@ public class ThreadA {
 	           //to enter newline
 	           System.out.print ('\n');
 	   
-	   
-	   
-	   
 	   	      }
 	   }
 	}
