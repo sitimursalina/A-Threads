@@ -8,6 +8,9 @@ public class ThreadA {
    public static void main (String [] args)
 	   {
 	   
+	   //AT-threads request for company A
+	   CompAThread AT = new CompAThread ();
+	   
 	   
 	   
 	   
