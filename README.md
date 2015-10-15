@@ -10,6 +10,10 @@ public class ThreadA {
 	   
 	   //AT-threads request for company A
 	   CompAThread AT = new CompAThread ();
+	   AT.start ();
+	      for (int t = 0; t < 50; t++)
+	           System.out.println ("t = " + t + ", t * t = " + t * t);
+	   }
 	   
 	   
 	   
